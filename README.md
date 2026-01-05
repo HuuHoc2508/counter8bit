@@ -98,4 +98,4 @@ RTL code and scripts are provided for educational purposes.
 
 ## 👤 Author
 
-ASIC Training Project - December 2025
+HuuHoc2508

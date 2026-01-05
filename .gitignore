@@ -1,0 +1,64 @@
+# ===========================================
+# ASIC Project .gitignore
+# ===========================================
+
+# ============ Synopsys Proprietary Files ============
+# DO NOT COMMIT - License violation!
+*.db
+*.sdb
+*.lib
+*.lef
+
+# Technology Files
+*.tf
+*.tluplus
+*.itf
+tech2itf.map
+
+# ============ Milkyway Libraries ============
+*_Lib/
+*.mwlib
+*.CEL
+*.FRAM
+
+# ============ GDSII/DEF (may contain tech info) ============
+*.gds
+*.gds2
+*.oasis
+
+# ============ Simulation Outputs ============
+*.vcd
+*.fsdb
+*.vpd
+*.shm/
+csrc/
+simv
+simv.daidir/
+ucli.key
+*.log
+*.pvl
+*.syn
+
+# ============ Work Directories ============
+work/
+WORK/
+alib-*/
+.synopsys_dc.setup
+.synopsys_pt.setup
+command.log
+default.svf
+
+# ============ Reports (optional - can keep) ============
+# Uncomment if you want to exclude reports
+# *.rpt
+
+# ============ Backup Files ============
+*~
+*.bak
+*.orig
+\#*\#
+
+# ============ OS Files ============
+.DS_Store
+Thumbs.db
+desktop.ini
